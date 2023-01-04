@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta tag -->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <!-- this is to enchance the performance of the website and make it viewable on mobile-->
+
+    <title>Jumi Language class!</title>
+
+    <!-- to connect CSS to this HTML code-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font import from google-->
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100&display=swap'); </style>
+
+    <!-- to make style effect on the menu when it is on mobile mode-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   
+</head>
+
+<body>
+<!-- this is the part where it will be displayed on the website-->
+
+    <section class="sub-header">
+    <!-- now it is time to create the logo button and the top menu section-->
+    <nav>
+        <a href="index.html"><img src="photos/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <!-- icon ui-->
+            <!--adding menu open close interaction function on mobile mode with javascript-->
+            <i class="fa fa-window-close" onclick="hideMenu()"></i> <!-- adding the close icon-->
+           
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES AVAILABLE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="privacy.html">PRIVACY POLICY</a></li>
+            </ul>
+        </div>
+        <!-- icon ui-->
+        <!--adding menu open close interaction function on mobile mode with javascript-->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<!-- title-->
+<h1> About Us</h1>
+
+
+
+
+ </section>
+
+<!---- About US CONTENT----->
+<section class="about-us">
+
+<div class="row">
+    <div class="about-col">
+        <h1>
+         We are the best and most affordable language class in Malaysia!   
+        </h1>
+        <p>
+            Jumi Language Class! is an institution that leads future digital leaders and you are welcome to be part of a dynamic and vibrant community. Get ready to embark into the intellectual adventure with us and  we are providing an array of opportunities for you to learn, to grow, to discover who you are, and how you can make a difference in the world. It is undeniable that education is a great tool to transform lives, where we can achieve our biggest dreams and empower us to become better person. At Jumi Language Class!, the ‘!’ element is vital where you will embrace the spirit of discovery and explore all the things that we have to offer. It is YOU who made us what we are and we are looking forward to the positive energy that YOU bring to our campus. Jumi Language Class! is You!  Join us to become future digital leaders and your success begins here! “
+        </p>
+        <a href="course.html"class="hero-btn red-btn">EXPLORE OUR CLAS NOW</a>
+    </div>
+    <div class="about-col">
+        <img src="photos/about.jpg">
+
+    </div>
+
+</div>
+
+</section>
+
+<section class="video-about-us">
+
+<div class="about-col-video">
+<h1>
+    Interested to know us more?
+</h1>
+<p>
+    Watch the video below made by our university Partner The Open University!<br> Video By: Sarah Ching and Wall Maria
+</p>
+
+
+
+</div>
+<div class="about-col-video">
+    <video width="640" height="427" controls>
+        <source src="photos/about-us-video.mp4" type="video/mp4">
+
+
+
+    </video>
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--------------footer------------>
+<section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+        Follow us on Social Media!
+        </p> 
+        <div class="icons">
+
+            <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+             <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+              <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-twitch"></i>
+            </a>
+              <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            
+            
+            
+        </div>
+        <p>Jumi Language Class! &emsp; MOE REGISTRATION CERTIFICATION NO: DU001(B). <br> © JUMI LANGUAGE CLASS!. ALL RIGHT RESEERVED <br><a href="privacy.html">Privacy Policy</a></p>
+        
+    </section>
+</section>
+
+
+
+<!------Java Script for Toggle Menu----->
+<!--function code to command the menu section animation for mobile version-->
+<script>
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right="0";
+    }
+    function hideMenu() {
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+</body>
+
+</html>

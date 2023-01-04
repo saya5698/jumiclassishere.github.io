@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Meta tag -->
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <!-- this is to enchance the performance of the website and make it viewable on mobile-->
+
+    <title>Jumi Language class!</title>
+
+    <!-- to connect CSS to this HTML code-->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font import from google-->
+    <style> @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,900;1,100&display=swap'); </style>
+
+    <!-- to make style effect on the menu when it is on mobile mode-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+   
+</head>
+
+<body>
+<!-- this is the part where it will be displayed on the website-->
+
+    <section class="sub-header">
+    <!-- now it is time to create the logo button and the top menu section-->
+    <nav>
+        <a href="index.html"><img src="photos/logo.png"></a>
+        <div class="nav-links" id="navLinks">
+            <!-- icon ui-->
+            <!--adding menu open close interaction function on mobile mode with javascript-->
+            <i class="fa fa-window-close" onclick="hideMenu()"></i> <!-- adding the close icon-->
+           
+
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSES AVAILABLE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="privacy.html">PRIVACY POLICY</a></li>
+            </ul>
+        </div>
+        <!-- icon ui-->
+        <!--adding menu open close interaction function on mobile mode with javascript-->
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+<!-- title-->
+<h1> CONTACT US</h1>
+
+ </section>
+
+<!-- CONTQACT US-->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7969.1457864353915!2d101.69228600000001!3d2.9383200000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x97a2ac4ee866932f!2sPrime%20Minister&#39;s%20Office!5e0!3m2!1sen!2smy!4v1670754650273!5m2!1sen!2smy" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+<section class="contact-us">
+    <div class="row">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-house-chimney"></i>
+                <span>
+                    <h5>Prime Minister's Office</h5>
+                    <p>Blok Utama, Perdana Putra, Pusat Pentadbiran Kerajaan Persekutuan, Presint 1, 62502 Putrajaya, Wilayah Persekutuan</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>
+                    <h5>999</h5>
+                    <p>Monday to Saturday, 10am to 10pm</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-regular fa-envelope"></i>
+                <span>
+                    <h5>noemail@no.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+            
+             
+        </div>
+        <div class="contact-col">
+            <form action="form-handler.php" method="post">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your email address" required>
+                <input type="text" name="subject" placeholder="Enter your Subject" required>
+                <textarea row="10" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+            </form>
+
+
+        </div>
+       
+    </div>
+
+</section>
+
+
+
+ 
+<!--------------footer------------>
+<section>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>
+        Follow us on Social Media!
+        </p> 
+        <div class="icons">
+
+            <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+
+             <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+              <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-twitch"></i>
+            </a>
+              <a href="https://www.youtube.com/watch?v=BBJa32lCaaY">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+            
+            
+            
+        </div>
+        <p>Jumi Language Class! &emsp; MOE REGISTRATION CERTIFICATION NO: DU001(B). <br> © JUMI LANGUAGE CLASS!. ALL RIGHT RESEERVED <br><a href="privacy.html">Privacy Policy</a></p>
+        
+    </section>
+</section>
+
+
+<!------Java Script for Toggle Menu----->
+<!--function code to command the menu section animation for mobile version-->
+<script>
+    var navLinks=document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right="0";
+    }
+    function hideMenu() {
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+</body>
+
+</html>
