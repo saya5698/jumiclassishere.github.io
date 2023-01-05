@@ -1,4 +1,4 @@
-Welcome to my website decvelopmentt respiratory.
+Welcome to my website decvelopment respiratory.
 
 This is the very first time I did a fully funcitonal website.
 
