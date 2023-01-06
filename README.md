@@ -10,3 +10,15 @@ It is difficult as it took me 1 month to non stop design, develop and test the w
 
 You can view the website here:
 https://saya5698.github.io/jumiclassishere.github.io/index.html
+
+
+==============================================================================================================================================================
+To my lecturer that will reveal this respiratory,
+
+In this respiratory, there will only be 1 css file, 6 html files and 1 php files. Also, there will be a folder storing all of the pictures.
+
+As a standard HTML protocol, index.html will be the first primary files.
+
+I hope you have a good day ahead.
+
+Jimmy.
